@@ -8,7 +8,7 @@ on:
 
 jobs:
   build-v2:
-    runs-on: macos-14-large
+    runs-on: macos-14
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
@@ -69,7 +69,7 @@ jobs:
             ./*.so
 
   build-v3:
-    runs-on: macos-14-large
+    runs-on: macos-14
     steps:
       - name: Check out repository
         uses: actions/checkout@v2
